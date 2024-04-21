@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Los Hermanos Mario</title>
+  <link rel="icon" href="./images/super1.png">
+  <link rel="stylesheet" href="./css/style-principal.css">
+  <link rel="stylesheet" href="./css/style-navbar.css">
+  <link rel="stylesheet" href="./css/style-footer.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</head>
+<body class="body">
+  <header class="navbar">
+    <div class="navbar__logo-y-btn">
+      <a href="index.html">
+        <img src="./images/logo-mario-bross.jpg" alt="logo-mario">
+        <a class="navbar__suscribete-btn" href="#suscribite">suscribite</a>
+      </a>
+    </div>
+    <div class="navbar__enlaces">
+      <a href="#contacto">Contacto</a>
+      <a href="#galeria-de-imagenes">Galeria de imagenes</a>
+      <a href="#acerca-de-nosotros">Acerca de nosotros</a>
+      <a href="#iniciar-cesion">Iniciar sesion</a>
+    </div>
+    <div class="navbar__logo-hamburguesa">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-list"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+      </svg>
+    </div>
+  </header>
+  <div class="main">
+    <div id="carouselExampleCaptions" class="main__carousel carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/posterimage1.jpg" class="img_carousel d-block w-100" alt="Mario 1" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-dark bg-danger rounded-pill">
+              The Super Mario Bros. Movie
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/posterimage2.jpg" class="img_carousel d-block w-100" alt="Mario 2" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-dark bg-danger rounded-pill">
+              Friends Forever
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/posterimage3.jpg" class="img_carousel d-block w-100" alt="Mario 3" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-dark bg-danger rounded-pill">
+              I Will Win The Game
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/posterimage4.jpg" class="img_carousel d-block w-100" alt="Mario 4" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-dark bg-danger rounded-pill">
+              The Popular Game
+            </h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-warning rounded border" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-warning rounded border" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section__left">
+      <div class="section__left__cards">
+        <div class="section__left__container-card">
+          <div class="section__left__card">
+            <div class="card border-black" style="width: 18rem">
+              <img src="./images/image1.jpg" class="card-img-top" alt="imagen 1"/>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <b style="border: solid 2px; background: #ffc107;">
+                    Mario
+                  </b>
+                </h5>
+                <br>
+                <p class="card-text text-black">
+                  <b>El hombre chiquito, de bigotes, vestido de rojo que usa una boina y
+                    salta siempre.
+                  </b>
+                </p>
+                <a href="./pages/entry.html" class="btn card-btn float"><b>Leer Más >></b></a>
+              </div>
+            </div>
+          </div>
+          <div class="section__left__card">
+            <div class="card border-black" style="width: 18rem">
+              <img src="./images/image2.jpg" class="card-img-top" alt="imagen 2"/>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <b style="border: solid 2px; background: #ffc107;">
+                    Luigi
+                  </b>
+                </h5>
+                <br>
+                <p class="card-text text-black">
+                  <b>Luigi, al igual que su hermano Mario, se encarga de rescatar a la Princesa.
+                  </b>
+                </p>
+                <a href="./pages/entry.html" class="btn card-btn float"><b>Leer Más >></b></a>
+              </div>
+            </div>
+          </div>
+          <div class="section__left__card">
+            <div class="card border-black" style="width: 18rem">
+              <img src="./images/image3.jpg" class="card-img-top" alt="imagen 3"/>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <b style="border: solid 2px; background: #ffc107;">
+                    Princesa Peach
+                  </b>
+                </h5>
+                <br>
+                <p class="card-text text-black">
+                  <b>Llamada Peach en Japón, vive en un gran castillo rodeada de sus fieles sirvientes
+                    Toad.
+                  </b>
+                </p>
+                <a href="./pages/entry.html" class="btn card-btn float"><b>Leer Más >></b></a>
+              </div>
+            </div>
+          </div>
+          <div class="section__left__card">
+            <div class="card border-black" style="width: 18rem">
+              <img src="./images/image4.jpg" class="card-img-top" alt="imagen 4"/>
+              <div class="card-body">
+                <h5 class="card-title border-5">
+                  <b style="border: solid 2px; background: #ffc107;">
+                    Bowser: Rey de los Koopas
+                  </b>
+                </h5>
+                <br>
+                <p class="card-text text-black">
+                  <b>Es el archienemigo de la serie. Una tortuga antropomorfa más grande que un humano.
+                  </b>
+                </p>
+                <a href="./pages/entry" class="btn card-btn float"><b>Leer Más >></b></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section__left__container-pagination">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination p-5">
+            <li class="page-item transLeft">
+              <a class="page-link pagination-link bg-warning rounded text-dark border-black fw-bold"
+                href="./pages/error.html" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item float">
+              <a class="page-link pagination-link bg-warning rounded text-dark border-black fw-bold"
+                href="./index.html">1</a>
+            </li>
+            <li class="page-item float">
+              <a class="page-link pagination-link bg-warning rounded text-dark border-black fw-bold"
+                href="./pages/error.html">2</a>
+            </li>
+            <li class="page-item float">
+              <a class="page-link pagination-link bg-warning rounded text-dark border-black fw-bold"
+                href="./pages/error.html">3</a>
+            </li>
+            <li class="page-item transRight">
+              <a class="page-link pagination-link bg-warning rounded text-dark border-black fw-bold"
+                href="./pages/error.html" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="section__right">
+      <div class="section__right__container-search">
+        <form class="form-search d-flex section__right__container-search" role="search">
+          <input class="search form-control" type="search" placeholder="Encuentra tu Mario" aria-label="search"
+            name="search" required>
+          <button class="btn-search float" type="submit"><b>Buscar</b></button>
+        </form>
+      </div>
+      <div class="section__right__container-categories">
+        <div class="section__right__categories-title">
+          <b>¡Personajes Principales!</b>
+        </div>
+        <ul class="list-group border-0">
+          <li class="list-group-item-action bg-warning border-0">
+            <img src="./images/super1.png" alt="icon 1" style="width: 16px; height: 16px">
+            <a class="section__right__category" href="./pages/error.html"><b>Mario</b></a>
+          </li>
+          <li class="list-group-item-action bg-warning border-0">
+            <img src="./images/super2.png" alt="icon2" style="width: 16px; height: 16px">
+            <a class="section__right__category" href="./pages/error.html"><b>Princesa Peach</b></a>
+          </li>
+          <li class="list-group-item-action bg-warning border-0">
+            <img src="./images/super3.png" alt="icon 3" style="width: 16px; height: 16px">
+            <a class="section__right__category" href="./pages/error.html"><b>Bowser</b></a>
+          </li>
+          <li class="list-group-item-action bg-warning border-0">
+            <img src="./images/super4.png" alt="icon 4" style="width: 16px; height: 16px">
+            <a class="section__right__category" href="./pages/error.html"><b>Luigi</b></a>
+          </li>
+          <li class="list-group-item-action bg-warning border-0">
+            <img src="./images/super5.png" alt="icon 5" style="width: 16px; height: 16px">
+            <a class="section__right__category" href="./pages/error.html"><b>Toad</b></a>
+          </li>
+          <li class="list-group-item-action bg-warning border-0">
+            <img src="./images/super6.png" alt="icon 6" style="width: 16px; height: 16px">
+            <a class="section__right__category" href="./pages/error.html"><b>Cranky</b></a>
+          </li>
+          <li class="list-group-item-action bg-warning border-0">
+            <img src="./images/super7.png" alt="icon 7" style="width: 16px; height: 16px">
+            <a class="section__right__category" href="./pages/error.html"><b>Donkey</b></a>
+          </li>
+          <li class="list-group-item-action bg-warning border-0">
+            <img src="./images/super8.png" alt="icon 8" style="width: 16px; height: 16px">
+            <a class="section__right__category" href="./pages/error.html"><b>Kamek</b></a>
+          </li>
+          <li class="list-group-item-action bg-warning border-0">
+            <img src="./images/super9.png" alt="icon 9" style="width: 16px; height: 16px">
+            <a class="section__right__category" href="./pages/error.html"><b>Lumalee</b></a>
+          </li>
+          <li class="list-group-item-action bg-warning border-0">
+            <img src="./images/super10.png" alt="icon 10" style="width: 16px; height: 16px">
+            <a class="section__right__category" href="./pages/error.html"><b>Rey Pingüino</b></a>
+          </li>
+        </ul>
+      </div>
+      <div class="section__right__container-ad">
+        <img class="section__right__ad" src="./images/thumbnail_descarga-1-1.jpg" alt="Publicidad 1">
+        <br>
+        <img class="section__right__ad" src="./images/thumbnail_descarga-3.jpg" alt="Publicidad 2">
+      </div>
+      <picture class="picture">
+        <img class="transUp m-5" width="200" src="./images/MARIO1.png" alt="imagen Mario">
+        <tool-tip role="tooltip">
+          It's meeeeeeee, <b>Mario!</b>
+        </tool-tip>
+      </picture>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__container-redes">
+      <a href="error404"><img src="./images/logo-wsp.png"></a>
+      <a href="error404"><img src="./images/logo-ig.png"></a>
+      <a href="error404"><img src="./images/logo-facebook.jpg"></a>
+    </div>
+    <div class="footer__container-logo">
+      <a href="index.html"><img src="./images/logo-mario-bross.jpg"></a>
+    </div>
+    <div class="footer__container-info">
+      <a href="contactanos">Contactanos</a>
+      <a href="acerca de nosotros">Acerca de nosotros</a>
+    </div>
+  </footer>
+</body>
+</html>

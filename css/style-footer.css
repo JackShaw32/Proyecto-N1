@@ -1,0 +1,112 @@
+.footer{
+	width: 100%;
+	height: 300px;
+	background: #E70012;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+}
+.footer__container-logo{
+	width: 100%;
+	height: 130px;
+	display: flex;
+	justify-content: center;
+}
+.footer__container-logo img{
+	border: 1px solid #E70012;
+	border-radius: 50% ;
+	border: 3px solid #0F1627;
+	height: 130px;
+	box-shadow: 6px 6px 1px 1px rgba(0, 0, 0, 0.5);
+	transition: all 0.5s;
+}
+.footer__container-logo img:hover{
+	box-shadow: 0px 0px 0 0 rgba(0, 0, 0, 0.5);
+}
+.footer__container-redes {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.footer__container-redes img {
+	height: 40px;
+	border-radius: 50%;
+	transition: all 0.5s;
+	box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.5);
+}
+.footer__container-redes img:hover{
+	box-shadow: 0px 0px 0 0 rgba(0, 0, 0, 0.5);
+}
+.footer__container-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+.footer__container-info a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #0F1627;
+	border-radius: 18px;
+	border: 2px solid #0F1627;
+	padding: 3px;
+	transition: all 0.5s;
+	box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.footer__container-info a:hover {
+	background: #ffc107;
+	box-shadow: 0px 0px 0 0 rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px){
+	.footer {
+		align-content: center;
+
+	}
+	.footer__container-redes {
+		width: 200px;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.footer__container-logo {
+		width: 200px;
+		height: 100%;
+		display: flex;
+		align-items: center ;
+	}
+	.footer__container-info{
+		width: 250px;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
+@media (min-width: 1024px){
+	.footer__container-redes{
+		flex-direction: row;
+		justify-content: space-between;
+		width: 300px;
+	}
+	.footer__container-redes img {
+		height: 55px;
+	}
+
+	.footer__container-logo img {
+		width: 200px;
+		height: 200px;
+	}
+
+	.footer__container-info a {
+		font-size: 20px;
+		padding: 10px;
+	}
+}

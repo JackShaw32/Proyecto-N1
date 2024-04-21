@@ -1,6 +1,6 @@
 Proyecto Numero 1
 
-En este Proyecto vamos a realizar una pagina de la pelicula, videojuego y parte de la historia sobre Mario Bros.
+En este Proyecto vamos a realizar una pagina sobre la pelicula, videojuego y parte de la historia sobre Mario Bros.
 
     @JackShaw32
 

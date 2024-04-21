@@ -2,7 +2,8 @@ Proyecto Numero 1
 
 En este Proyecto vamos a realizar una pagina sobre la pelicula, videojuego y parte de la historia sobre Mario Bros.
 
-    @JackShaw32
+Autor
+    [@JackShaw32](https://github.com/JackShaw32)
 
 Características
 
